@@ -10,7 +10,7 @@ def encrypt(text,s):
     return result
 text = input("Enter the String: ")
 s = int(input("Enter the Shift Number: "))
-print ("#####################")
+print ("#######################")
 print ("Plain Text : " + text)
 print ("Shift pattern : " + str(s))
 l = encrypt(text,s)
